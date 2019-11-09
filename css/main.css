@@ -1,0 +1,18 @@
+
+.errorMsg {
+    font-size: 34px;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#nyheder {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 50%;
+    /* height: 65vh; */
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="./js/searchNews.js" defer></script>
+    <title>Søg på en nyhed</title>
+</head>
+<body>
+
+        <div class="container">
+      
+                <h3 class="center" style="margin-bottom:20px;">Søg på en nyhed <i class="material-icons medium hide-on-small-only" id="icons"></i></h3>
+                
+                <form>
+                    <div class="input-field">
+                        <input type="text" id="søg">
+                  
+                    </div>
+                    
+                    <div class="row">
+                       <input type="submit" id="searchbtn" class="btn col m2 s12" value="Søg">
+                       <input type="reset" id="searchbtn" class="btn col m2 s12 red right" value="clear"  style="margin-top:3px;">
+                    </div>
+                    
+                </form>
+              
+                
+                <div class="row">
+                   <div id="nyheder"></div>
+                </div>
+               
+                
+          
+          
+                
+             </div>
+    
+</body>
+</html>
